@@ -12,3 +12,5 @@ BMX = Bicicleta('Blanco', 2, 'Urbana')
 KTM = Motocicleta('Amarillo', 2, 'Urbana', 125, 20)
 
 lista = [Mercedes, Fragoneta, BMX, KTM]
+
+catalogar(lista, 2)

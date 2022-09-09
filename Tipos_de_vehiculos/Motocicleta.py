@@ -1,3 +1,5 @@
+from Tipos_de_vehiculos.Vehiculo import Vehiculo
+from Tipos_de_vehiculos.Bicicleta import Bicicleta
 class Motocicleta(Bicicleta):
     def __init__(self, color, ruedas, tipo, velocidad, cilindrada):
         super().__init__(color, ruedas, tipo)
